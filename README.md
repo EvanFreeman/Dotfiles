@@ -95,28 +95,7 @@ Now you have all the files required to get start with Vim, Next thing is to link
     $ln -s Dotfiles/vim-files/vim/vimrc .vimrc
 
 
-Thats it, now open your vim, you can see all the features described above are being available, except command-t. Because it requires a compilation. The compilation step is very simple. Follow me,
-
-
-    $ cd Dotfiles/vim-files/vim/bundle/command-t/ruby/command-t
-    $ ruby extconf.rb
-    $ make
-
-
-The make will succeed only when you have gcc installed , and your Vim has ruby support. To check the ruby support, open your vim and type,
-
-If there is no error then you have ruby support with your vim. The latest version of Vim has support for major dynamic languages like Python, Ruby and others. So that it won't give you any head ache.
-
-If the dynamic language support is not there with your Vim, then you have to install complete vim from your package manager.
-
-If you are using Debian based system you can follow this command. Other platforms has also the same option using their package manager tool.
-
-
-    $apt-cache search python | grep vim
-    $apt-cache search ruby | grep vim
-
-
-From the list install any of the GUI based package.
+Thats it, now open your vim, you can see all the features described above are being available.
 
 ### Some Vim shortcuts
 
