@@ -127,7 +127,7 @@ Thats it, now open your vim, you can see all the features described above are be
 
 ### Summary
 
-All these hard works to setup your Vim would be useful to you only when you realize the fact that the Vim basic editing features will save you a lot of your time and increase the productivity. For that you don't required above discussed plugin features. The plugins will only reduce some keystrokes via we will get some productivity improvements. But it won't turn you from other editors to Vim. Vim default features are more than enough to attract you to use Vim. I hope you understood my feeling. :)
+All this hard work to setup your Vim would be useful to you only when you realize the fact that the Vim basic editing features will save you a lot of your time and increase the productivity. For that you don't required above discussed plugin features. The plugins will only reduce some keystrokes via we will get some productivity improvements. But it won't turn you from other editors to Vim. Vim default features are more than enough to attract you to use Vim. I hope you understood my feeling. :)
 
 Enjoy the Vim hacking.
   

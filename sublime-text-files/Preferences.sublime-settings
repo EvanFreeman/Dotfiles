@@ -1,0 +1,23 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"command": "refresh_folder_list",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active",
+		"draw_normal"
+	],
+	"keys":
+	[
+		"f5"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
