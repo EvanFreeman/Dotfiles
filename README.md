@@ -10,18 +10,7 @@ IDE's. This package is a general one so we can expand it very easily by support
 for new languages. By default it supports lot of programming languages. So this 
 plugin is a must one for Vim.
 
-## 3. Snipmate (Code Templates)
-
-This provides snipets for Vim. Useful to save you some keystrokes depending on
-what language you are coding in.
-
-The Snimpate plugin provide a lot of shortcuts for different programming 
-languages. We can also define our own snippets. 
-
-Please check the snippets folder(~/.vim/bundle/snippets/) to see all available 
-snippets for a particular language or markup.
-
-## 4. NerdTree (File Browser)
+## 3. NerdTree (File Browser)
 
 This will display your project directory structure in tree format. It provides 
 lot of shortcuts to navigate through the source tree easily. It is an another 
@@ -33,7 +22,7 @@ Nerdtree when ever required. You can re-map this to your own choice.
 To open and close the Nerdtree press CTRL + n. Also you can see other available 
 commands for this plugin by typing, ESC + :NERD <tab>
 
-## 5. Tagbar (Class Browser)
+## 4. Tagbar (Class Browser)
 
 This plugin is similar to the NerdTree, but instead of listing project 
 directory structure it list the objects and functions names inside a file. Like 
@@ -41,44 +30,21 @@ Class browser in other IDE's.
 
 I mapped [leader] l to open tagbar and same combination to close it also.
 
-## 6. Auto Pairs.
+## 5. Auto Pairs.
 
 This is a simple plugin to auto complete single quote, double quote, 
 parentheses. This is a very handy to save few key press.
 
 ## Others
 
-This section is to discus about already existing awesome features build in with
-the Vim. You can consider me as a beginner in this area :). If you are looking
-for learning more advanced details of the Vim editor, you don't need to search
-on google, you can find it out under its documentation itself.
+This section is to discuss already existing features build in to 
+Vim. You can consider me a beginner in this area :). If you are looking
+to learn more advanced information about Vim, you don't need to google, you can find
+it under its documentation.
 
-To see all documentation type ESC + :help. The documentation is very huge, so 
-Vim provides search option across all its documentation. To see a documentation
+To see all documentation type ESC + :help. The documentation is huge, so 
+Vim provides search options across all its documentation. To see documentation
 about a topic, type ESC + :help 
-
-For eg;
-
-To see about the documentation of _jumps_ , type : ESC + :help jumps
-
-I wrote above example, because it is an another interesting feature required 
-for modern IDE. The thing is that it was already build in with Vim.
-
-1. **Jump List**
-
-I found this feature accidentally. It is to jump across different files and at
-the same time it has an option for jump back through all the files that we
-jumped across.
-
-There are many more things about jumplist, Vim internally keeps the 
-list of our locations across different files. you can see that by typing :jumps.
-Different instances of Vim will share the same jump list.
-
-Similar to this, lot of things are out there to learn. This Others section is 
-not going to end here :). But for now I'm stopping here.
-
-So the explanation of Vim feature is over now, lets take a look at how to setup
-the Vim to get all these above features and make Vim ready to extend with new plugins.
 
 ### Setup Vim from Scratch
 
