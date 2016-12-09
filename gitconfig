@@ -16,12 +16,13 @@
   delete-branch = !sh -c 'git push origin :refs/heads/$1 && git branch -D $1' -
   delete-tag = !sh -c 'git tag -d $1 && git push origin :refs/tags/$1' -
   merge-branch = !git checkout master && git merge @{-1}
-  pr = !gh pull-request
+  pr = !hub pull-request
   st = status
   up = !git fetch origin && git rebase origin/master
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
+	editor = /usr/bin/vim
 [merge]
   ff = only
 [commit]
@@ -30,3 +31,8 @@
   prune = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	name = Evan Freeman
+	email = efreeman@cainc.com
+[hub]
+	host = github.cainc.com

@@ -28,14 +28,27 @@ set wildmenu
 set wildmode=list:longest
 set visualbell
 syntax on
-let g:syntastic_html_checkers=['']
-let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
-let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"cg-"]
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['eslint']
+"
+" Run NeoMake on read and write operations
+autocmd! BufReadPost,BufWritePost * Neomake
+
+" Disable inherited syntastic
+let g:syntastic_mode_map = {
+  \ "mode": "passive",
+  \ "active_filetypes": [],
+  \ "passive_filetypes": [] }
+
+let g:neomake_serialize = 1
+let g:neomake_serialize_abort_on_error = 1
+
+"let g:syntastic_html_checkers=['']
+" let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+" let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"cg-"]
+" let g:syntastic_always_populate_loc_list = 1
+" "let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+" let g:syntastic_javascript_checkers = ['eslint']
 "set cursorline
 set ttyfast
 set ruler
@@ -235,5 +248,6 @@ imap <leader>l <ESC>:TagbarToggle<cr>i
 " Snipmate using bellow VIM's default keys, just unmap it.
 " autocmd VimEnter * unmap! <C-i>
 
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 " =========== END Plugin Settings =========="
 "
