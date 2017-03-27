@@ -32,7 +32,7 @@
 [include]
   path = ~/.gitconfig.local
 [user]
-	name = Evan Freeman
-	email = efreeman@cainc.com
+	name = <name>
+	email = <email>
 [hub]
 	host = github.cainc.com
