@@ -36,4 +36,4 @@
 	name = <name>
 	email = <email>
 [hub]
-	host = github.cainc.com
+	host = github.com
